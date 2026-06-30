@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_DataAccessLayer", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_BusinessLayer", "..\DVLD_BusinessLayer\DVLD_BusinessLayer.csproj", "{17E3C8CE-A0BD-40E1-B451-773E10868ECA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DVLD_DataAccessLayerr", "DVLD_DataAccessLayerr", "{D4EB0E14-9D13-457B-8154-254435657F26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DVLD_BusinessLayerr", "DVLD_BusinessLayerr", "{B8B4165E-D042-450F-A796-9A105B17D849}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DVLD_PresentationLayerr", "DVLD_PresentationLayerr", "{E057C7AC-BCED-4E92-A25D-E2BB6D430ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +36,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1EE9659-21F1-483C-8B98-29BCB3D16391} = {E057C7AC-BCED-4E92-A25D-E2BB6D430ABE}
+		{34233743-DC2B-4200-A273-AA26670537E8} = {D4EB0E14-9D13-457B-8154-254435657F26}
+		{17E3C8CE-A0BD-40E1-B451-773E10868ECA} = {B8B4165E-D042-450F-A796-9A105B17D849}
 	EndGlobalSection
 EndGlobal

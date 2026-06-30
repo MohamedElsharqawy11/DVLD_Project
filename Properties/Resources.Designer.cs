@@ -545,7 +545,17 @@ namespace DVLD_Project.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap IssueDrivingLicense_32 {
             get {
-                object obj = ResourceManager.GetObject("IssueDrivingLicense_32", resourceCulture);
+                object obj = ResourceManager.GetObject("IssueDrivingLicense 32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IssueDrivingLicense32 {
+            get {
+                object obj = ResourceManager.GetObject("IssueDrivingLicense32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
