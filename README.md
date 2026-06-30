@@ -33,4 +33,4 @@ This project was built with a strong focus on clean code and scalable architectu
 
 ## 👨‍💻 Author
 **Mohamed Elsharqawy**
-Software Engineer passionate about building secure, scalable systems, AI, and Cybersecurity.
+Software Engineer passionate about building secure, scalable systems, AI.
