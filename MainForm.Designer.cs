@@ -148,8 +148,9 @@
             this.internationalLicensesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("internationalLicensesToolStripMenuItem.Image")));
             this.internationalLicensesToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.internationalLicensesToolStripMenuItem.Name = "internationalLicensesToolStripMenuItem";
-            this.internationalLicensesToolStripMenuItem.Size = new System.Drawing.Size(188, 38);
+            this.internationalLicensesToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
             this.internationalLicensesToolStripMenuItem.Text = "International Licenses";
+            this.internationalLicensesToolStripMenuItem.Click += new System.EventHandler(this.internationalLicensesToolStripMenuItem_Click);
             // 
             // replacementForLostOrDamagedLicenseToolStripMenuItem
             // 
@@ -194,6 +195,7 @@
             this.releaseDetainedToolStripMenuItem.Name = "releaseDetainedToolStripMenuItem";
             this.releaseDetainedToolStripMenuItem.Size = new System.Drawing.Size(328, 38);
             this.releaseDetainedToolStripMenuItem.Text = "Release Detained Driving License";
+            this.releaseDetainedToolStripMenuItem.Click += new System.EventHandler(this.releaseDetainedToolStripMenuItem_Click);
             // 
             // toolStripMenuItem6
             // 
@@ -250,6 +252,7 @@
             this.internationalDrivingLicensesApplicationsToolStripMenuItem.Name = "internationalDrivingLicensesApplicationsToolStripMenuItem";
             this.internationalDrivingLicensesApplicationsToolStripMenuItem.Size = new System.Drawing.Size(327, 38);
             this.internationalDrivingLicensesApplicationsToolStripMenuItem.Text = "International Driving Licenses Applications";
+            this.internationalDrivingLicensesApplicationsToolStripMenuItem.Click += new System.EventHandler(this.internationalDrivingLicensesApplicationsToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -278,6 +281,7 @@
             this.mmToolStripMenuItem2.Name = "mmToolStripMenuItem2";
             this.mmToolStripMenuItem2.Size = new System.Drawing.Size(240, 38);
             this.mmToolStripMenuItem2.Text = "Manage Detained Licenses";
+            this.mmToolStripMenuItem2.Click += new System.EventHandler(this.mmToolStripMenuItem2_Click);
             // 
             // detainedLicensesToolStripMenuItem
             // 
